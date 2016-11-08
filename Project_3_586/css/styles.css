@@ -1,99 +1,112 @@
-*{
-  font-family: sans-serif;
-}
+
+
 .menu-btn div {
-	position: absolute;
-	left: 100%;
-	top: 64%;
-	padding-right: 8px;
-	margin-top: -0.50em;
-	line-height: 1.2;
-	font-size: 18px;
-	font-weight: 200;
-	vertical-align: middle;
-	z-index: 99;
+    position: absolute;
+    left: 100%;
+    top: 64%;
+    padding-right: 8px;
+    margin-top: -0.50em;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: 200;
+    vertical-align: middle;
+    z-index: 99;
 }
 
 .menu-btn span {
-	display: block;
-	width: 19px;
-	height: 3px;
-	margin: 4px 0;
-	background: rgb(0,0,0);
-	z-index: 99;
+    display: block;
+    width: 19px;
+    height: 3px;
+    margin: 4px 0;
+    background: rgb(0, 0, 0);
+    z-index: 99;
 }
 
-.responsive-menu{
-	display: none;
+.responsive-menu {
+    display: none;
 }
 
 .expand {
-	display: block !important;
+    display: block !important;
 }
-.nav{
-  font-weight: bold;
-  font-size: 12px;
+
+.nav {
+    font-weight: bold;
+    font-size: 12px;
 }
-.logo{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30em;
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
 }
-.line{
-  border-style: solid;
-  border-width: 1px;
-  color: #d3d3d3;
-  opacity: 10%;
-  margin-top: -100px;
+
+.line {
+    border-style: solid;
+    border-width: 1px;
+    color: #d3d3d3;
+    opacity: 10%;
+    margin-top: -100px;
 }
-h1{
-  font-family: 'Alegreya', serif;
+
+h1 {
+    font-family: 'Alegreya', serif;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: -20px;
+}
+
+#page-wrap {
+    width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    font-family: serif;
+    font-size: 80px;
+    color: black;
+    display: inline-block;
+    margin-bottom: -20px;
+}
+
+.story {
+    font-family: serif;
+    color: black;
+    display: inline;
+    font-size: 19.5px;
+}
+
+.hamburger {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.sections {
+    margin-left: 40px;
+    margin-top: -30px;
+    font-family: serif;
+    font-size: 18px;
+}
+
+.search {
+    margin-left: 120px;
+    margin-top: -40px;
+}
+
+.s-text {
+    margin-left: 165px;
+    margin-top: -25px;
+    font-family: serif;
+    font-size: 18px;
+}
+.header{
+  margin-bottom: 50px;
   text-align: center;
-  font-size: 50px;
-  color: black;
 }
-#page-wrap{
-  width: 800px;
-  margin: 0 auto;
-}
-h2{
-  text-align: center;
-  font-family: serif;
-  font-size: 80px;
-  color: black;
-  display: inline-block;
-  margin-top: 50px;
-}
-.story{
-  text-align: center;
-  font-family: serif;
-  color: black;
-  display: inline;
-  width: 800px;
-}
-.hamburger{
-  margin-top: 25px;
-  margin-bottom: 10px;
-}
-.sections{
-  margin-left: 40px;
-  margin-top: -30px;
-  font-family: serif;
-  font-size: 18px;
-}
-.search{
-  margin-left: 120px;
-  margin-top: -40px;
-}
-.s-text{
-  margin-left: 165px;
-  margin-top: -25px;
-  font-family: serif;
-  font-size: 18px;
-}
-.box{
-  margin-left: 50px;
-  border-style: dashed;
-  border-color: red;
+.side-note{
+  font-size: 10px;
 }

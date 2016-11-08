@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,55 +11,69 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
- <!-- My css -->
+    <!-- My css -->
     <link href="css/styles.css" rel="stylesheet">
     <!--Serif Font-->
-<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
-<!--C3 Charts-->
-<link href="css/c3.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
+    <!--C3 Charts-->
+    <link href="css/c3.css" rel="stylesheet" type="text/css">
+    <!--Table-->
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.css">
 
-  </head>
-  <body>
-<div class="container">
-  <div class="hamburger">
-    <div class="mobile-nav">
-     <div class="menu-btn" id="menu-btn">
-	<div></div>
-	<span></span>
-	<span></span>
-	<span></span>
-     </div>
-     <div class="responsive-menu">
-        <ul>
-           <li>1. Object</li>
-           <li>2. Object</li>
-        </ul>
-     </div>
-   </div>
-  </div>
-  <p class="sections">
-    Sections
-  </p>
-  <div class="search">
-    <a href="#">
-    <img src="images/search-256.png" width="30" height="30" />
-    </a>
-  </div>
-  <p class="s-text">Search</p>
-    <hr />
-  <div class="logo">
-    <img src="images/shot.png" />
-  </div>
-    <div class="box">
-      <h1>Water Consumption of New York City on The Steady Decline Since 1970s</h1>
-      <h2>U</h2>
-      <p class="story">sing New York Census data population we can track the change in how much water is being used per capata in New York.  </p>
+</head>
+
+<body>
+    <div class="container">
+        <div class="hamburger">
+            <div class="mobile-nav">
+                <div class="menu-btn" id="menu-btn">
+                    <div></div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="responsive-menu">
+                    <ul>
+                        <li>1. Object</li>
+                        <li>2. Object</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="sections">
+            Sections
+        </p>
+        <div class="search">
+            <a href="#">
+                <img src="images/search-256.png" width="30" height="30" />
+            </a>
+        </div>
+        <p class="s-text">Search</p>
+        <hr />
+        <div class="logo">
+            <img src="images/shot.png" />
+        </div>
+        <div class="col-md-12">
+            <div class="content">
+                <div class="header">
+                    <h1>New York Cities Efforts to Retain Water</h1>
+                    <h2>F</h2>
+                    <p class="story">
+                      resh, clean water is a limited resource. While most of the planet is covered in water, it is salt water that can only be consumed by humans and other species after undergoing desalination, which is an expensive process. New York is rich with valuable water resources. These rivers, streams, lakes and ponds are necessary for drinking and bathing; agricultural, commercial and industrial uses; and fish and wildlife habitat. In addition, New York's waterways provide opportunities for recreation; education and research; and aesthetic appreciation.
+                    </p>
+                </div>
+                <p class="side-note">
+                  *Millions Gallons (per day)
+                </p>
+            </div>
+        </div>
+
+        <div id="chart"></div>
+
+
+
     </div>
-</div>
-<hr />
-<div id="chart"></div>
 
-</div>
 
 
 
@@ -72,5 +87,7 @@
     <script src="js/d3.min.js" charset="utf-8"></script>
     <script src="js/c3.min.js"></script>
     <script src="js/scripts.js"></script>
-  </body>
+    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.js"></script>
+</body>
+
 </html>
