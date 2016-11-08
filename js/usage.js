@@ -11,7 +11,7 @@ jsonData.forEach(function(e) {
 })
 
 chart = c3.generate({
-  bindto: '#chart',
+  bindto: '#chart2',
     data: {
         json: [ data ],
         keys: {

@@ -1,4 +1,9 @@
-
+body {
+    font-family: serif;
+    color: black;
+    display: inline;
+    font-size: 19.5px;
+}
 
 .menu-btn div {
     position: absolute;
@@ -73,13 +78,6 @@ h2 {
     margin-bottom: -20px;
 }
 
-.story {
-    font-family: serif;
-    color: black;
-    display: inline;
-    font-size: 19.5px;
-}
-
 .hamburger {
     margin-top: 25px;
     margin-bottom: 10px;
@@ -107,6 +105,16 @@ h2 {
   margin-bottom: 50px;
   text-align: center;
 }
+
+.dropcap {
+  text-align: center;
+  font-family: serif;
+  font-size: 80px;
+  color: black;
+  display: inline-block;
+  margin-bottom: -20px;
+}
+
 .side-note{
   font-size: 10px;
 }
@@ -122,4 +130,12 @@ h2 {
 .white{
   color: white;
   font-size: 30px;
+}
+.row {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.graph-intro{
+  font-size: 30px;
+  font-family: serif;
 }
