@@ -110,3 +110,16 @@ h2 {
 .side-note{
   font-size: 10px;
 }
+.black-box{
+  background-color: black;
+  margin-top: 700px;
+}
+.eye{
+  text-align: center;
+  color: white;
+  font-size: 200px;
+}
+.white{
+  color: white;
+  font-size: 30px;
+}
